@@ -10,6 +10,8 @@ public class UserInfoBean implements Parcelable{
 	private String sex;
 	private String location;
 	private String avatar_url; //头像url
+	private String province;
+	private String city;
 
 	public String getUid() {
 		return uid;
